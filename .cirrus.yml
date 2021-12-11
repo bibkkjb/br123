@@ -1,0 +1,6 @@
+task:
+  name: Integration Tests (x64)
+  container:
+    image: cirrusci/ubuntu:latest
+    kvm: true
+  script: echo "Hello World" && lsb_release -a
